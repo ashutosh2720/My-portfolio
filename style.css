@@ -1,0 +1,272 @@
+
+
+body {
+  font-family:'Times New Roman', Times, serif;
+  margin: 4px;
+  background-color: rgb(217, 226, 237);
+  
+}
+
+
+
+/* container */
+.container {
+  padding:20px ;
+ 
+}
+
+.container-2{
+  max-width: 500px;
+  margin:auto;
+  
+}
+
+/* links */
+
+.link {
+  text-decoration: none;
+  padding: 10px 10px;
+  background-color: rgba(8, 8, 252, 0.952);
+  border-radius:40%;
+  color: white;
+}
+
+.project-link {
+  background-color:blue;
+  border-radius: 200px;
+  color: white;
+  margin-left: 150px;
+  margin-top: 80px;
+
+}
+
+.blog-link {
+  color:white;
+  border-radius: 200px;
+  background-color: blue;
+  margin-left: 130px;
+}
+
+/* lists */
+
+.list{
+  list-style: none;
+}
+
+.list-item {
+  display: inline;
+
+
+}
+
+/* navigation */
+
+.navigation {
+  background-color:rgba(0, 0, 255, 0.712);
+  color:white;
+  height: 50px;
+  text-align:left;
+  border-radius: 1rem;
+}
+
+.navigation .link {
+  color: white;
+  font-weight: 20px;
+}
+
+.navigation .nav-name {
+  font-weight: bold;
+  
+}
+
+.navigation .nav {
+  text-align:right;
+  margin-right: 30px;
+  margin-top: 1px;
+  font-size: 25px;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+  
+}
+
+.react-img{
+  padding: 1rem;
+ 
+   background-color:white;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   border-radius: 20px;
+}
+
+.react-img .img {
+  max-width: 600px;
+  display:block;
+  margin: auto;
+}
+
+.react-img .heading {
+  padding-top: 1rem;
+  color:black;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.sub-heading {
+  padding: 0rem;
+  margin-top: 0rem;
+  color:blue;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+
+/*section*/
+.section {
+  padding: 2rem;
+}
+
+.section h1 {
+  text-align: center;
+  background-color:rgba(7, 7, 251, 0.902);
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  margin-left: 160px;
+}
+
+.blue {
+  background-color:rgba(26, 131, 201, 0.126);
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.ol-rev {
+  padding-bottom: 0.7rem;
+}
+
+.ol-rev li {
+  padding-bottom: 2.5rem;
+}
+
+.ol-rev h2 {
+  margin-bottom: 0.5rem;
+}
+
+/*footer*/
+.footer {
+  background-color: rgba(0, 0, 255, 0.712);
+  border-radius:30px;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  height: 65px;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.footer p {
+  font-size: 0.9rem;
+}
+
+/*project-tags*/
+.project-tag {
+  font-size: 25px;
+  margin: 1.5rem 0.4rem 0 0;
+  background-color:rgba(12, 12, 194, 0.95);
+  color:white;
+  border-radius: 20px;
+  padding: 2px 5px;
+  
+}
+
+/*blog*/
+.blog {
+  max-width: 70%;
+  margin: auto;
+  text-align: justify;
+}
+
+.blog-img-head {
+  padding-top: 1rem;
+  max-width: 70%;
+  display: block;
+  margin: auto;
+}
+
+/*responsive*/
+@media only screen and (max-width: 520px) {
+  .nav-brand {
+    padding-left: 0px;
+    padding-top: 1px;
+  }
+
+  .navigation {
+    padding: 1rem 0rem;
+  }
+
+  .navigation .link {
+    padding: 0.5rem 0.5rem;
+  }
+
+  .navigation .nav {
+    text-align:;
+  }
+
+  .react-img{
+    padding: 1rem;
+  }
+
+  .react-img .img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  .heading {
+    font-size: large;
+  }
+
+  .react-img .sub-heading {
+    font-size: 1.3rem;
+  }
+
+  .container-2 h1 {
+    font-size: 1rem;
+  }
+.container-2{
+  margin-right:30px;
+}
+  .project-link {
+    display: block;
+    width: fit-content;
+    padding-bottom: 10px;
+    margin-right: 70px;
+    font-size: 15px;
+  }
+
+  .blog-link {
+    width: fit-content;
+    padding-bottom: 10px;
+    display: block;
+    font-size: 15px;
+  }
+
+  .footer {
+    height: 65px;
+  }
+
+}
