@@ -2,8 +2,8 @@
 
 body {
   font-family:'Times New Roman', Times, serif;
-  margin: 4px;
-  background-color: rgb(217, 226, 237);
+  margin: 2px;
+  background-color: rgb(238, 241, 245);
   
 }
 
@@ -11,12 +11,12 @@ body {
 
 /* container */
 .container {
-  padding:20px ;
+  padding: 30px;
  
 }
 
 .container-2{
-  max-width: 500px;
+  max-width:100vh;
   margin:auto;
   
 }
@@ -35,8 +35,8 @@ body {
   background-color:blue;
   border-radius: 200px;
   color: white;
-  margin-left: 150px;
-  margin-top: 80px;
+  margin-left: 220px;
+  margin-top: 0px;
 
 }
 
@@ -44,7 +44,7 @@ body {
   color:white;
   border-radius: 200px;
   background-color: blue;
-  margin-left: 130px;
+  margin-left: 200px;
 }
 
 /* lists */
@@ -134,13 +134,14 @@ body {
   border-radius: 20px;
   width: 200px;
   height: 40px;
-  margin-left: 160px;
+  margin-left:130px;
 }
 
 .blue {
-  background-color:rgba(26, 131, 201, 0.126);
+  background-color:rgba(26, 35, 201, 0.126);
   border-radius: 30px;
   margin-bottom: 20px;
+  padding-left:100px
 }
 
 .ol-rev {
