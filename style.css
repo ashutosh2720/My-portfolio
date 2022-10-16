@@ -207,7 +207,22 @@ body {
   display: block;
   margin: auto;
 }
-
+.blog1{
+  background-color:white;
+  border-radius:20px;
+  display:flex;
+  height: 100vh;
+  padding-top: 20px;
+  justify-content: center;
+  
+}
+.b{
+  background-color: rgb(190, 209, 248);
+  width: 60vw;
+  height: 100vh;
+  border-radius:30px;
+  padding-bottom: 0px;
+}
 /*responsive*/
 @media only screen and (max-width: 520px) {
   .nav-brand {
